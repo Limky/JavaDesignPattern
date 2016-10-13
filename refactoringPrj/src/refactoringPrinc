@@ -1,0 +1,27 @@
+1.Extract SuperClass
+공통된 변수와 메서드를 추출하여, 별도의 클래스로 만든 후에 상속관계를 맺어주는 원칙
+
+2.Extract Method
+메서드의 일부 코드를 별도의 메서드로 분리하는 원칙
+
+3.Pull up Method
+하위 클래수들의 메서드가 모두 동일한 경우에 그 메서드를 상위 클래스로 올려주는 원칙
+
+4.Form Template Method 
+하위 클래스의 메서드에서 뼈대 구조가 중복이 되면, 중복되는 구조를 상위 클래스로 올려주고
+그 메서드를 Template Method가 되는 원칙
+
+5.Extract Interface
+IS-A 관계는 아니지만, 비슷한 기능을 가진 클래스들을 묶어 주기 위해서 상위에 인터페이스를 정의하는 원칙
+
+6.Extract Class
+공통적인 변수를 별도의 클래스로 만든 후에 위임(Delegation) 관계를 맺어주는 원칙
+
+7.Move Method
+메서드 이동
+
+8.Inline Method
+사용되지 않는 메서드를 제거
+
+9.Replace Construction with Factory Method
+객체를 생성할 때 생성자를 직접 호출하지 않고, Factory Method 호출을 통해서 객체를 생성하는 원칙

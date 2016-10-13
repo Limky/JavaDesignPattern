@@ -1,0 +1,3 @@
+1.Replace Type Code with State/Strategy
+상태 코드 값을 각각의 클래스로 추출하는 원칙
+타입코드에 따라 행위가 변하는 클래스가 있을 때 그 타입정보가 객체가 생성된 이후에 계속 변할 때는 "타입코드를 state/strategy" 패턴으로 바꾸기를 사용하면 된다.

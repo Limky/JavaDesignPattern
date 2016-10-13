@@ -1,0 +1,4 @@
+1.Replace delegation with Inheritance 
+위임을 상속으로 바꾸기
+하위 클래스에서 상위클래스의 대부분의 메서드를 물려받아야 한다면, 우임보다는 상속이 더 유리하다.
+

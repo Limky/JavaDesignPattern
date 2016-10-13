@@ -1,0 +1,5 @@
+1.Replace Inheritance with Delegation
+상속을 위임으로 바꾸기
+Stack과 관련없는 메서드는 물려받지 않으면서 필요한 기능만 사용할 수 있도록 해주는 원칙
+
+2.Extract Method
